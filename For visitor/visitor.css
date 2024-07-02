@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff6dc;
+  padding: 1rem;
+  transition: color 3ms ease-in-out;
+}
+
+#Title img {
+  width: 150px; /* set the width of the image */
+  height: 50px; /* set the height of the image */
+  border-radius: 5%; /* add a rounded corner to the image */
+  margin-right: 10px; /* add some space between the image and the text */
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  color: #c40c0c;
+}
+
+.main-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px; /* Adjust max-width as per your design */
+  margin: 20px auto; /* Center the container */
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cont {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cont li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+}
+
+.pay {
+  margin-top: auto; /* Pushes the "Pay and Enter" button to the bottom */
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.entry-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.entry-button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  height: 40vh;
+  width: 100%;
+  background-color: #c7c3a0;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  text-align: center;
+  bottom: 0;
+}
+
+footer > h1 {
+  color: #973131;
+  font-size: 36px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons i {
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icons i:hover {
+  color: #973131;
+}
+
+.footer-container > a {
+  font-size: 40px;
+  font-weight: bold;
+  color: #973131;
+  text-decoration: none;
+}
+
